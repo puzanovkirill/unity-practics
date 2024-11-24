@@ -1,0 +1,30 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="FocusButtonController">
+			<method name="FocusOnFirstObject"/>
+		</type>
+		<type fullname="MainMenuController">
+			<method name="ExitGame"/>
+			<method name="GoToObjectCreatorScene"/>
+			<method name="GoToObjectViewerScene"/>
+		</type>
+		<type fullname="ObjectAnimator">
+			<method name="ToggleAnimation"/>
+		</type>
+		<type fullname="ObjectSwitcher">
+			<method name="GoToMainMenu"/>
+			<method name="NextChild"/>
+			<method name="PreviousChild"/>
+			<method name="ToggleChildMode"/>
+		</type>
+		<type fullname="PrimitiveCreator">
+			<method name="CreateCapsule"/>
+			<method name="CreateCube"/>
+			<method name="CreateCylinder"/>
+			<method name="CreatePlane"/>
+			<method name="CreateSphere"/>
+			<method name="GoToMainMenu"/>
+			<method name="SaveObject"/>
+		</type>
+	</assembly>
+</linker>
